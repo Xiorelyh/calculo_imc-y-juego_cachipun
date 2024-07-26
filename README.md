@@ -1,4 +1,4 @@
-# Actividad Nro.2 Modulo 3 DESARROLLO DE APLICACIONES FULL STACK PYTHON "Inforcap"
+# Actividad Nro.2 Modulo 3
 
 ## Calculo de IMC
 
