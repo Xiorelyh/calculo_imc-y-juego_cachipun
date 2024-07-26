@@ -2,25 +2,27 @@
 #argumento: piedra, papel o tijera. Para que el computador pueda jugar escogerá un
 # argumento al azar
 
+
+#Esta libreria permite escoger una opcion aleatoria dentro de las determinadas anteriormente.
 import random
 
 computadora = (random.choice(["piedra", "papel", "tijera"]))
 
 
 #Jugadores
-jugador = (input("Escribe tu opción: "))
-if jugador == "piedra" or jugador == "papel" or jugador == "tijera" :
+usuario = (input("Escribe tu opción: "))
+if usuario == "piedra" or usuario == "papel" or usuario == "tijera" :
     print("Empieza el juego")
     print("Computadora eligió:" , computadora)
 
 # Opciones de resultado
-    if jugador == computadora:
+    if usuario == computadora:
         print("Empate")
-    elif jugador == "piedra" and computadora == "tijera":
+    elif usuario == "piedra" and computadora == "tijera":
         print("Ganaste!")
-    elif jugador == "tijera" and computadora == "papel":
+    elif usuario == "tijera" and computadora == "papel":
         print("Ganaste!")
-    elif jugador == "papel" and computadora == "piedra":
+    elif usuario == "papel" and computadora == "piedra":
         print("Ganaste!")
     else:
         print("Perdiste")    
